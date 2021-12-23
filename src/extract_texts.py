@@ -13,7 +13,7 @@ device = TextConverter(rsrcmgr, sio, codec=codec, laparams=laparams)
 interpreter = PDFPageInterpreter(rsrcmgr, device)
 
 # path to our input file
-pdf_file = "sample.pdf"
+pdf_file = input("enter file name :")
 
 # Extract text
 pdfFile = open(pdf_file, "rb")
