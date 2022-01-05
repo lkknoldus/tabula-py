@@ -37,7 +37,7 @@ def apicall():
                         #Load the saved model
                         print("Loading the model...")
                         loaded_model = None
-                        with open('/home/webonise/flask-app/models/'+clf,'rb') as f:
+                        with open('pdf_extraction'+clf,'rb') as f:
                                     loaded_model = pickle.load(f)
 
 
